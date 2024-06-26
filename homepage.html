@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Counter - Home</title>
+    <link rel="stylesheet" href="./homepage.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <!-- Add your image here -->
+            <a href="./index.html"><img src="./Caelan's Catering Co..svg" alt="Logo" class="logo"></a>
+        </div>
+        <div class="navbar-right">
+            <a href="./index.html"><img src="./profile-simple.svg" alt="Profile" class="profile-icon"></a>
+            <button id="logout-btn">Logout</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="center-div">
+            <h1>Nutrition Calculator</h1>
+            <div class="search-bar-container">
+                <input type="text" id="search-bar" placeholder="Search for ingredients...">
+                <div id="search-results" class="search-results"></div>
+            </div>
+            <div id="selected-ingredient" class="selected-ingredient"></div>
+            <div id="ingredient-list" class="ingredient-list"></div>
+            <div class="toggle-container">
+                <label><input type="checkbox" class="toggle-input" data-nutrient="calories" checked> Calories</label>
+                <label><input type="checkbox" class="toggle-input" data-nutrient="proteins" checked> Proteins</label>
+                <label><input type="checkbox" class="toggle-input" data-nutrient="fats" checked> Fats</label>
+                <label><input type="checkbox" class="toggle-input" data-nutrient="carbs" checked> Carbs</label>
+            </div>
+            <div class="total-nutrition">
+                <h2>TOTAL NUTRITIONAL VALUE</h2>
+                <p>Calories: <span id="total-calories">0</span> kcal</p >
+                <p>Proteins: <span id="total-proteins">0</span> g</p >
+                <p>Fats: <span id="total-fats">0</span> g</p >
+                <p>Carbs: <span id="total-carbs">0</span> g</p >
+            </div>
+        </div>
+    </div>
+    <script src="./database.js"></script>
+    <script src="./homepage.js"></script>
+</body>
+</html>

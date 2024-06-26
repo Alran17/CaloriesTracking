@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./Untitled\ design.png'); /* Add your background image here */
+    background-size: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #193d9d;
+}
+
+.navbar-left img.logo {
+    height: 100px;
+}
+
+.hover:hover{
+    background-color: white;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right img.profile-icon {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.navbar-right button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar-right button:hover {
+    background-color: #0056b3;
+}
+
+.navbar:hover {
+    background-color: white;
+}
+
+
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(''); /* Add your background image here */
+    background-size: cover;
+}
+
+
+
+#calculate-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#calculate-btn:hover {
+    background-color: #266041;
+}
+
+#navbar-btn{
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #e76034;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#navbar-btn:hover {
+    background-color: #266041;
+}
+
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('your-background.jpg'); /* Add your background image here */
+    background-size: cover;
+}
+
+.center-div {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+#ingredient-search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#ingredient-result .ingredient-result-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#ingredient-result .ingredient-result-item:hover {
+    background-color: #f0f0f0;
+}
+
+.selected-ingredient-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.selected-ingredient-item span {
+    flex: 1;
+}
+
+.weight-input {
+    width: 60px;
+    margin: 0 10px;
+}
+
+.remove-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #c82333;
+}
+
+#nutritional-values p {
+    margin: 5px 0;
+}
+
+.search-bar-container {
+    position: relative;
+    width: 100%;
+}
+
+#search-bar, #search-bar-edit {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.search-result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.search-result-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Ingredient List Styles */
+.ingredient-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.remove-ingredient {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-ingredient:hover {
+    background-color: #c82333;
+}
+
+/* Total Nutrition Styles */
+.total-nutrition-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.total-nutrition h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+/* Styles specific to homepage.html */
+#ingredient-list {
+    margin-top: 20px;
+}
+
+#selected-ingredient h3 {
+    margin: 10px 0;
+}
+
+.main-container {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-40%, -50%);
+}
+
+.main-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: #c0392b;
+}
+
+h2{
+    font-size: 15px;
+    color: white;
+}
+
+h1{
+    font-size: 35px;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}

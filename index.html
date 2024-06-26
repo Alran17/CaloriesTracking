@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Counter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+        <a href="./homepage.html"><img src="./Caelan's Catering Co..svg" alt="Logo" class="logo"></a>
+        </div>
+        <div class="navbar-right">
+            <a class="hover" href="./homepage.html"><img src="./profile-simple.svg" alt="Profile" class="profile-icon"></a>
+            <button id="navbar-btn">Login</button>
+            <button id="navbar-btn">Sign Up</button>
+        </div>
+    </div>
+    <div class="main-container">
+        <h2>A LEADING INTERMITTENT FASTING APP</h2>
+        <h1>The fastest track to healthy <br> weight loss</h1>
+        <p>Set your goals and we’ll give you all the expert tools you need to get to the <br> finish line.</p>
+        <button id="calculate-btn">Calculate Your Calories</button>
+    </div>
+       
+    </div>
+    <script>
+        document.getElementById('calculate-btn').addEventListener('click', function() {
+            window.location.href = 'homepage.html';
+        });
+    </script>
+</body>
+</html>

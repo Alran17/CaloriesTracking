@@ -1,0 +1,67 @@
+body{
+    background: url(./images/307f31d14dab1690405355fa60dcf6e6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(40%);
+    padding: 0px;
+}
+.LogIn{
+    width: 400px;
+    height: 600px;
+    border: 2px solid;
+    padding: 0px;
+    border-radius: 20px;
+    background: url(./images/307f31d14dab1690405355fa60dcf6e6.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: aliceblue;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    backdrop-filter: brightness(40%);
+}
+h1{
+    font-size: 40px;
+}
+label{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+input{
+    background: white;
+    height: 40px;
+    border-radius: 40px;
+    color: black;
+    line-height: 30px;
+    border: none;
+    padding: 0px 20px;
+    border-bottom: 50px;
+}
+h3{
+    font-size: 12px;
+    text-align: right;
+    margin-top: -5px;
+    border-bottom: 50px;
+}
+button{
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background: skyblue;
+    color: white;
+    ;
+    
+}

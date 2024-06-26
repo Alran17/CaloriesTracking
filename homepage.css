@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-image: url('./Untitled\ design\ 2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #193d9d;
+}
+
+.navbar-left img.logo {
+    height: 100px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right img.profile-icon {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.navbar-right button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #e76034;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.navbar-right button:hover {
+    background-color: #266041;
+}
+
+.navbar:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+.search-bar-container {
+    position: relative;
+    width: 100%;
+}
+
+#search-bar, #search-bar-edit {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.search-result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.search-result-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Ingredient List Styles */
+.ingredient-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.remove-ingredient {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-ingredient:hover {
+    background-color: #c82333;
+}
+
+
+.total-nutrition {
+    background-color: grey;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styles specific to homepage.html */
+#ingredient-list {
+    margin-top: 20px;
+}
+
+#selected-ingredient h3 {
+    margin: 10px 0;
+}
