@@ -41,5 +41,10 @@ const foods = [
     { name: 'Green Onion', calories: 32, proteins: 1.8, fats: 0.2, carbs: 7.3, sodium: 16, sugar: 2.3, fiber: 2.6 },
     { name: 'Avocado', calories: 160, proteins: 2, fats: 15, carbs: 9, sodium: 7, sugar: 0.7, fiber: 7 },
     { name: 'Mushroom', calories: 22, proteins: 3.1, fats: 0.3, carbs: 3.3, sodium: 5, sugar: 1, fiber: 1 },
-    { name: 'Tola', calories: 330, proteins: 10, fats: 10, carbs: 10, sodium: 5, sugar: 1, fiber: 1 }
+    { name: 'Tola', calories: 330, proteins: 10, fats: 10, carbs: 10, sodium: 5, sugar: 1, fiber: 1 },
+    { name: 'Groundnut Paste', calories: 539.2, proteins: 26.2, fats: 41.5, carbs: 16.2, sodium: 5, sugar: 1, fiber: 1 },
+    { name: 'Vegetable Oil', calories: 884, proteins: 0, fats: 100, carbs: 0, sodium: 0, sugar: 0, fiber: 0 },
+    { name: 'Burrito Bread', calories: 303.1, proteins: 7, fats: 7.8, carbs: 48.7, sodium: 0, sugar: 0, fiber: 0 },
+    { name: 'Sardines', calories: 214.2, proteins: 17.6, fats: 15.9, carbs: 0.5, sodium: 0, sugar: 0, fiber: 0 },
+    { name: 'Mayonnaise (Low-Fat)', calories: 35.6, proteins: 0, fats: 2.1, carbs: 4.2, sodium: 0, sugar: 0, fiber: 0 },
 ];
